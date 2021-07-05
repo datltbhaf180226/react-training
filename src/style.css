@@ -1,0 +1,54 @@
+.nav-bar {
+    padding: 10px 20px;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar li {
+    margin-right: 20px;
+}
+
+.post-actions {
+    display: flex;
+}
+
+.post-actions div {
+    margin-right: 20px;
+}
+
+.post-actions div:hover,
+.post-actions button:hover {
+    cursor: pointer;
+}
+
+.posts-table tbody tr {
+    height: 40px;
+}
+
+.posts-table tbody tr td:nth-child(1) {
+    text-align: center;
+}
+
+.input-rows {
+    padding: 13px 20px;
+    position: relative;
+}
+
+.input-rows input{
+    padding: 5px 10px;
+}
+
+.message {
+    position: absolute;
+    bottom: -20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: red;
+}
+
+.submit-btn {
+    margin-left: 20px;
+    margin-top: 12px;
+}
